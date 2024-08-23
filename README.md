@@ -1,4 +1,4 @@
-# RateMyProfessor RAG System
+# GradeYourTeacher RAG System
 
 This project implements a Retrieval-Augmented Generation (RAG) system for a RateMyProfessor-like application using Express.js, OpenAI, Pinecone, and Firebase.
 
