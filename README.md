@@ -46,7 +46,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for a Rate
 
 #### POST /create
 - Adds new professor reviews to the system.
-- Updates both Firestore and Pinecone (implied, not shown in the code snippet).
+- Updates both Firestore and Pinecone.
 
 #### GET /institution/:institutionName
 - Retrieves all professors and their reviews for a given institution.
@@ -107,4 +107,3 @@ node server.js
 2. Add user authentication and authorization.
 3. Implement caching to reduce API calls and improve performance.
 4. Add more comprehensive error handling and logging.
-5. Develop a front-end interface for better user interaction.
