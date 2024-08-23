@@ -1,0 +1,27 @@
+{
+  "name": "node_backend",
+  "version": "1.0.0",
+  "description": "resuseable backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Nirmaan Goyal",
+  "license": "ISC",
+  "dependencies": {
+    "@mtucourses/rate-my-professors": "^2.2.1",
+    "@pinecone-database/pinecone": "^3.0.1",
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.4",
+    "firebase-admin": "^12.3.0",
+    "helmet": "^7.1.0",
+    "openai": "^4.56.0",
+    "path": "^0.12.7"
+  }
+}
